@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What are Diffusion Models?"
-date: 2025-12-23
+date: 2025-12-26
 description: Mathematical formulation and theory of DDPMs.
 categories: [Deep Learning, Generative Models]
 tags: [Diffusion Models]
@@ -9,7 +9,7 @@ thumbnail: /assets/img/blogs/diffusion/diffusion_thumbnail.png
 ---
 
 
-Diffusion models are a family of generative models built on an idea: **gradually distort the original input by adding noise, and then learn how to reverse the process**. This means that starting from the original input, we repeatedly inject(*diffuse*) noise to it until it becomes indistinguishable from pure noise, and then we learn to denoise it iteratively until the original input is recovered. In this post, we focus on one of the most influential diffusion models, known as Denoising Diffusion Probabilistic Models (DDPMs). 
+Diffusion models are a family of generative models built on an idea: **gradually distort the original input by adding noise, and then learn how to reverse the process**. This means that starting from the original input, we repeatedly inject (*diffuse*) noise to it until it becomes indistinguishable from pure noise, and then we learn to denoise it iteratively until the original input is recovered. In this post, we focus on one of the most influential diffusion models, known as Denoising Diffusion Probabilistic Models (DDPMs). 
 
 If you are already familiar with [VAEs](/blog/2025/VAEs/), DDPMs can be viewed as a special, structured variant of VAEs, with a few key differences that are worth highlighting.
 
@@ -47,7 +47,7 @@ If you are already familiar with [VAEs](/blog/2025/VAEs/), DDPMs can be viewed a
 
 ### **1. Mathematical Formulation**
 
-We follow the notation introduced in the original DDPM paper. Let $$x_0 \sim p_X$$ denote a data sample (e.g. an image). We introduce a sequence of latent variables $$x_1, \dots, x_T$$, where $$T$$ is the total number of diffusion steps. These latent variables are obtained through a forward (noising) process, which progressively corrupts the data with Gaussian noise.
+Let $$x_0 \sim p_X$$ denote a data sample (e.g. an image). We introduce a sequence of latent variables $$x_1, \dots, x_T$$, where $$T$$ is the total number of diffusion steps. These latent variables are obtained through a forward (noising) process, which progressively corrupts the data with Gaussian noise.
 
 ##### **1.1 Forward (Noising) Process**
 
@@ -221,7 +221,7 @@ Using Bayes’ rule, we can write:
 
 $$
 
-q(x_{t-1} \mid x_{t}, x_0) = \frac{q(x_t \mid x_{t-1}, x_0)q(x_{t-1} \mid x_0)}{q(\mid x_t \mid x_0)}
+q(x_{t-1} \mid x_{t}, x_0) = \frac{q(x_t \mid x_{t-1}, x_0)q(x_{t-1} \mid x_0)}{q(x_t \mid x_0)}
 
 $$
 
