@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-20'
 papers:
   wdHjvmsAAAAJ:2VqYfGB8ITEC:
     citations: 0
     title: Language-Agnostic Speech Tokenizer for Spoken Term Detection with Efficient Retrieval
     year: '2025'
   wdHjvmsAAAAJ:FAceZFleit8C:
-    citations: 10
+    citations: 11
     title: Simultaneously learning robust audio embeddings and balanced hash codes for query-by-example
     year: '2023'
   wdHjvmsAAAAJ:GtLg2Ama23sC:
-    citations: 17
+    citations: 18
     title: Attention-Based Audio Embeddings for Query-by-Example
     year: '2022'
   wdHjvmsAAAAJ:IRz6iEL74y4C:
@@ -27,5 +27,5 @@ papers:
     year: '2025'
   wdHjvmsAAAAJ:umqufdRvDiIC:
     citations: 3
-    title: 'FlowHash: Accelerating Audio Search with Balanced Hashing via Normalizing Flow'
+    title: 'FlowHash: accelerating audio search with balanced hashing via normalizing flow'
     year: '2024'
