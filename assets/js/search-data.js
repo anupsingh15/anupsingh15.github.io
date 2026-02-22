@@ -35,16 +35,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-have-joined-amazon-as-an-applied-scientist-ii-working-on-speech-llms",
+          title: 'I have joined Amazon as an Applied Scientist II, working on Speech LLMs....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-titled-best-std2-0-balanced-and-efficient-speech-tokenizer-for-spoken-term-detection-has-been-accepted-at-icassp-2026-check-out-the-paper",
+          title: 'Our paper titled “BEST-STD2.0: Balanced and Efficient Speech Tokenizer for Spoken Term Detection”...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-titled-harmonic-summation-based-robust-pitch-estimation-in-noisy-and-reverberant-environments-has-been-accepted-at-ncc-2026-check-out-the-paper",
+          title: 'Our paper titled “Harmonic Summation-Based Robust Pitch Estimation in Noisy and Reverberant Environments”...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
