@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science Ph.D. Student at Ghent University
+subtitle: Applied Scientist II at Amazon
 
 profile:
   align: right
@@ -24,10 +24,10 @@ latest_posts:
 ---
 
 
-I am currently a Ph.D. student in the Department of Electronics and Information Systems at [Ghent University](https://www.ugent.be/en), where I am a member of the Speech Group at [IDLab](https://idlab.ugent.be/). I am advised by [Prof. Kris Demuynck](https://ai.ugent.be/people/KrisDemuynck.en.html) and [Prof. Vipul Arora](https://www.kuleuven.be/wieiswie/en/person/00177787). As part of my PhD, I also spent time as a long-term research visitor at [MADHAV Lab, IIT Kanpur](https://madhavlab.github.io/).
+I am currently an Applied Scientist at Amazon, where I work on Automatic Speech Recognition (ASR), leveraging large-scale models and speech LLMs to improve accuracy, robustness, and multilingual capabilities in real-world media applications. My broader interests include speech representation learning, audio understanding, and efficient large-scale systems.
 
-My research focuses on self-supervised learning for speech and audio processing, with an emphasis on robust and efficient audio indexing and retrieval. More recently, I have been exploring speech tokenization, with the aim of contributing to emerging directions such as textless NLP and speech-LLMs.
+I completed my Ph.D. in Computer Science at [Ghent University](https://www.ugent.be/en), where I was part of the Speech and Audio Processing Group at [IDLab](https://idlab.ugent.be/). I was advised by [Prof. Kris Demuynck](https://ai.ugent.be/people/KrisDemuynck.en.html) and [Prof. Vipul Arora](https://www.kuleuven.be/wieiswie/en/person/00177787). My doctoral research focused on self-supervised learning for speech and audio, with an emphasis on scalable audio indexing and retrieval. Building on this foundation, I explored speech tokenization techniques aimed at advancing textless NLP and speech-based language models.
 
-I hold a BS–MS dual degree in Mathematics from the [Indian Institute of Science Education and Research (IISER-Kolkata)](https://www.iiserkol.ac.in/web/). During my undergraduate studies, I worked on various machine-learning-oriented projects, which shaped my interest in applied machine learning.
+I hold a BS–MS dual degree in Mathematics from the [Indian Institute of Science Education and Research (IISER-Kolkata)](https://www.iiserkol.ac.in/web/).
 
 Outside of work, I enjoy learning about geopolitics, reading, and playing sports (mostly lawn-tennis these days!)
