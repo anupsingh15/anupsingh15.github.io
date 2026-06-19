@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-19'
 papers:
   wdHjvmsAAAAJ:2VqYfGB8ITEC:
     citations: 2
@@ -30,6 +30,6 @@ papers:
     title: Robust and efficient methods for searching in speech and audio archives
     year: '2026'
   wdHjvmsAAAAJ:umqufdRvDiIC:
-    citations: 5
+    citations: 6
     title: 'FlowHash: accelerating audio search with balanced hashing via normalizing flow'
     year: '2024'
